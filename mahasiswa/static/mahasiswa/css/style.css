@@ -93,3 +93,106 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
+/* TOMBOL TAMBAH */
+main > a {
+    display: inline-block;
+    margin-bottom: 15px;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main > a:hover {
+    background-color: #1e7e34;
+}
+
+/* TOMBOL AKSI */
+table td a {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+table td a:first-child {
+    background-color: #ffc107;
+    color: #333;
+}
+
+table td a:first-child:hover {
+    background-color: #e0a800;
+}
+
+table td a:last-child {
+    background-color: #dc3545;
+    color: white;
+}
+
+table td a:last-child:hover {
+    background-color: #a71d2a;
+}
+
+/* FORM TAMBAH & EDIT */
+form table {
+    border: none;
+    width: auto;
+}
+
+form table td {
+    padding: 8px 10px;
+    border: none;
+}
+
+form table td:first-child {
+    font-weight: bold;
+    width: 130px;
+    color: #343a40;
+}
+
+form input[type=text],
+form input[type=number] {
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    width: 250px;
+    font-size: 14px;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #5395d7;
+}
+
+form button[type=submit] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button[type=submit]:hover {
+    background-color: #1e7e34;
+}
+
+form a {
+    background-color: #6c757d;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+form a:hover {
+    background-color: #545b62;
+}
